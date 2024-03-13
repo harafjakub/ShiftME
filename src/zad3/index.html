@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wybór województwa i miasta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wojewodztwa">
+        <select id="wojewodztwa_select">
+            <option value="">Wybierz województwo</option>
+        </select>
+    </div>
+    <div id="miasta">
+        <select id="miasta_select" disabled>
+            <option value="">Wybierz miasto</option>
+        </select>
+    </div>
+    <div id="informacje">
+        <h2>Informacje o wybranym mieście</h2>
+        <div id="herb"></div>
+        <p id="informacje_miejskie"></p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
