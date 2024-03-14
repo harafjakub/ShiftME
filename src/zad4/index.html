@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+    <div class="navbar">
+        <a href="#">Strona główna</a>
+        <a href="#">Kontakt</a>
+        <div class="dropdown">
+          <button class="dropbtn">Menu rozwijane  
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div> 
+      </div>
+      
+    <div class="content">
+        <aside>
+            <h2>Sidebar</h2>
+            <label for="category">Kategoria:</label>
+            <select id="category">
+                <option value="">Wszystkie</option>
+                <option value="Elektronika">Elektronika</option>
+                <option value="Odzież">Odzież</option>
+                <option value="Akcesoria">Akcesoria</option>
+                <option value="Meble">Meble</option>
+            </select>
+        </aside>
+        <main>
+            <h2>Oferta</h2>
+            <ul class="offer-list" id="product-list">
+                <li class="offer-item"><a href="#">Produkt 1</a></li>
+                <li class="offer-item"><a href="#">Produkt 2</a></li>
+                <li class="offer-item"><a href="#">Produkt 3</a></li>
+            </ul>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2024 Stopka</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
